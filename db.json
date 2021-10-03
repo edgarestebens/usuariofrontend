@@ -1,0 +1,44 @@
+{
+  "usuarios": [
+    {
+      "usuario": "edgar",
+      "email": "colachoedgar@gmail.com",
+      "nombres": "Edgar Estebens",
+      "apellidos": "Jaramillo Rodriguez",
+      "activo": "true",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "usuario": "mary",
+      "email": "mabehin@gmail.com",
+      "nombres": "Ruth Mary",
+      "apellidos": "Betancur Hincapie",
+      "activo": true
+    },
+    {
+      "id": 3,
+      "usuario": "wilmer",
+      "email": "wilmer@gmail.com",
+      "nombres": "Wilmer Andres",
+      "apellidos": "Jaramillo Rodriguez",
+      "activo": true
+    },
+    {
+      "usuario": "marleny",
+      "email": "marleny@hotmail.com",
+      "nombres": "Marleny",
+      "apellidos": "Rodriguez",
+      "activo": "true",
+      "id": 4
+    },
+    {
+      "usuario": "ramon",
+      "email": "Ramon@hotmail.com",
+      "nombres": "Ramon Edgar",
+      "apellidos": "Jaramillo Burbano",
+      "activo": "true",
+      "id": 5
+    }
+  ]
+}

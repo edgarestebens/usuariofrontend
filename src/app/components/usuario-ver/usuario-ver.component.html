@@ -1,0 +1,68 @@
+<div class="row">
+    <div class="col-12">
+        <div class="card auth auth-bg-1 container2">
+            <div class="card-body colorletra">
+                <h3 class="text-center">Información del Empleado</h3>
+                <br>
+
+                <form role="form" [formGroup]="registrarusuarioForm">
+
+
+                    <div class="row">
+
+                    
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label class="required-field">Nombres(*)</label>
+                                <input type="email" class="form-control" formControlName="nombres" readonly="readonly">
+                                <!-- <app-form-error-messages [errorMessages]="challengeForm.get('name')">
+                                </app-form-error-messages> -->
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label class="required-field">Apellidos(*)</label>
+                                <input type="email" class="form-control" formControlName="apellidos" readonly="readonly">
+                                <!-- <app-form-error-messages [errorMessages]="challengeForm.get('name')">
+                                </app-form-error-messages> -->
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label class="required-field">Email(*)</label>
+                                <input type="email" class="form-control" formControlName="email" readonly="readonly">
+                                <!-- <app-form-error-messages [errorMessages]="challengeForm.get('name')">
+                                </app-form-error-messages> -->
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label class="required-field">Usuario(*)</label>
+                                <input type="email" class="form-control" formControlName="usuario" readonly="readonly">
+                                <!-- <app-form-error-messages [errorMessages]="challengeForm.get('name')">
+                                </app-form-error-messages> -->
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <br>
+
+                    <hr>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-3">
+                                <a (click)="goBack()" class="btn btn-warning mt-2">Cancelar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
